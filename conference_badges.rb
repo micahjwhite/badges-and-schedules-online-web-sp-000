@@ -16,11 +16,8 @@ room_assignments = [["Edsger", 1], ["Ada", 2], ["Charles", 3], ["Alan", 4], ["Gr
 
 def assign_rooms(room_assignemnts)
   new_array = []
+  counter = 1
   room_assignments.each do |name|
-    attendee_array.each do |room|
-      new_array.push("Hello #{name}! You'll be assigned to room #{room}!")
-    end
-  end
-  return new_array
+    
 end
     
