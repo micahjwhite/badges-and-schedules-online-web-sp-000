@@ -16,4 +16,9 @@ room_assignments = [["Edsger", 1], ["Ada", 2], ["Charles", 3], ["Alan", 4], ["Gr
 
 def assign_rooms(room_assignemnts)
   room_assignments.each do |name|
+    attendee_array.each do |room|
+      puts "Hello #{name}! You'll be assigned to room #{room}!"
+    end
+  end
+end
     
